@@ -15,7 +15,17 @@ namespace White_Elephant.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Upload_My_Gift()
+        {
+            return View();
+        }
+
+        public IActionResult Draw_a_Number()
+        {
+            return View();
+        }
+
+        public IActionResult Play()
         {
             return View();
         }
