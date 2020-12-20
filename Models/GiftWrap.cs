@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace White_Elephant.Models
 {
@@ -14,4 +11,5 @@ namespace White_Elephant.Models
         public bool AssignedToGift { get; set; }
 
     }
+
 }

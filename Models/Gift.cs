@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using White_Elephant.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace White_Elephant.Models
 {
-    public class GiftDetails
+    public class Gift : IGift
     {
-        public string GiftID { get; set; }
+        public int GiftID { get; set; }
 
         public string GiftDescription { get; set; }
 

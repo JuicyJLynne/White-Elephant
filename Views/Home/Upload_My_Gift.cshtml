@@ -4,11 +4,21 @@
 <h1>@ViewData["Title"]</h1>
 
 <h2>Add details and photos of your gift here!.</h2>
+<br/>
+<hr/>
+
 
 <!--Make this a text field-->
-<input />
+<label for="GiftDescription">Describe your gift:</label>
+<textarea id="GiftDescription"></textarea>
 
-<input type="submit" name="submit_gift_info" />
+<label for="img">Upload a picture here:</label>
+<input type="file" id="img" name="img" accept="image/*"/>
+
 
 <!--Gift Wrap Selector-->
 
+<button>Here's a button</button>
+
+
+<input type="submit" name="submit_gift_info" />
